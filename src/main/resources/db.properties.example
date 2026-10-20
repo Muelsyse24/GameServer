@@ -1,0 +1,10 @@
+# ===== 复制为 db.properties 后填入你本机的真实配置，db.properties 已被 .gitignore 忽略 =====
+db.jdbcUrl=jdbc:mysql://127.0.0.1:3306/game_db?useSSL=false&serverTimezone=Asia/Shanghai&allowPublicKeyRetrieval=true
+db.username=root
+db.password=__CHANGE_ME__
+db.maxPoolSize=10
+
+redis.host=127.0.0.1
+redis.port=6379
+redis.maxTotal=16
+redis.maxIdle=8

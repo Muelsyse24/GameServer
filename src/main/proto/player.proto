@@ -1,0 +1,14 @@
+syntax = "proto3";
+option java_package = "com.game.demo.protobuf";
+option java_outer_classname = "PlayerProto";
+
+message PlayerLoginRequest {
+  string username = 1;
+  string password = 2;
+}
+
+message PlayerLoginResponse {
+  int32 code = 1;
+  string message = 2;
+  int64 playerId = 3;
+}
