@@ -1,4 +1,4 @@
-# Arknights Game Login Server
+# Game Login Server
 
 基于 **Netty + Protobuf + Redis + MySQL** 实现的单机版游戏登录服务器 Demo，用于学习高并发网络编程、缓存旁路（Cache-Aside）和常见服务端工程化实践。
 
